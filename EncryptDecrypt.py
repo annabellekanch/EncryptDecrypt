@@ -11,7 +11,7 @@ window['bg'] = '#D9ECFC'
 #Function to clear contents when clear button is clicked
 def Clear():
     myText.delete(1.0, END)
-    myKey.delete(0, END)
+    myKey.delete()
 
 #Function to encrypt string
 def Encrypt():
